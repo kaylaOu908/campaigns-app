@@ -55,6 +55,11 @@ types/
   campaign.ts               # Shared domain types
 
 ```
+Main Routes
+- / — Dashboard landing page
+- /campaigns — Campaign list
+- /campaigns/[id] — Dynamic campaign detail
+  
 ## 4. Architectural Practices to Notice
 - Server vs Client component split
   - Server routes fetch data and stay simple: app/campaigns/page.tsx, app/campaigns/[id]/page.tsx
